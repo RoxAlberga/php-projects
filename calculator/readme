@@ -1,0 +1,5 @@
+This exercise consists in two php files, an index and a functions file. In order to succeed, the functions.php has o be correctly linked in the index.php. 
+
+# What did I do?
+
+I created a form with two input field (where I ask for a number) and a select field (where I ask to select an operation). Then, in my functions.php I retrieved my data from the form with the superglobal $_GET in order to pass them into a function as parameters. Then, my function simply takes the variable in which there is the operation to make and use it ase a condition to perform a Switch/Case.
